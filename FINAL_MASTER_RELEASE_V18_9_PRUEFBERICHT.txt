@@ -1,0 +1,24 @@
+Fleet Control Final Master Release V18.9 Konsolidiert
+
+translations.js: OK
+app.js: OK
+V18.9-Gesamttest: OK
+V18_9_FULL_OK
+
+Enthalten und geprüft:
+- alle vorherigen Fahrer-/Rollen-/Dashboard-/Sprach-/Session-Fixes
+- reine Fahrerzugänge ohne Vollzugriff
+- Fahrzeug-/Pilotfahrzeugerfassung mit Kennzeichen, HU/TÜV, SP, Tachoprüfung
+- detaillierte Abfahrtskontroll-PDFs mit Kommentaren und Bildnamen
+- PDF-Archiv mit zwei Kategorien: Abfahrtskontrollen und Werkstatt
+- Fahrzeugakten-PDFs automatisch im Werkstatt-Archiv
+- Arbeitsauftrag-PDFs im Werkstatt-Archiv
+- Werkstatt-Suite
+- Werkstatt-Einsicht für Chef, Stellvertretung und Fuhrpark
+- Managementfreigabe, Sperren/Entsperren, Kommentare
+- Mehrsprachigkeit für neue Bereiche
+- Loginfehler unter Anmeldebutton
+- angemeldet bleiben und aktuelle Seite behalten
+
+Nicht enthalten:
+- echter E-Mail-Versand. Mail-Queue bleibt vorbereitet.

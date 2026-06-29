@@ -1,0 +1,6 @@
+Fleet Control Final Master Release V18.6
+
+translations.js: OK
+app.js: OK
+Final-Master-Test: OK
+FINAL_MASTER_V18_6_OK

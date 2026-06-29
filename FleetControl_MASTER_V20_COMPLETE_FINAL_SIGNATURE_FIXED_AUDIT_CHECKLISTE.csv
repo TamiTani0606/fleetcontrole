@@ -1,0 +1,5 @@
+Funktion;Status;Hinweis
+Werkstatt digitale Unterschrift;VOLLSTÄNDIG NACHWEISBAR;workshopSignature integriert und getestet
+E-Mail-Versand;BACKEND NÖTIG;nicht lokal testbar
+Cloud/Server-Datenbank;BACKEND NÖTIG;nicht lokal testbar
+Echte KI-Bildanalyse;BACKEND NÖTIG;nicht lokal testbar

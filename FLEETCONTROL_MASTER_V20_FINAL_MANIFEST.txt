@@ -1,0 +1,35 @@
+FleetControl MASTER V20 FINAL
+
+Finaler Clean Rebuild auf Basis der Versionen ab V18.9.
+
+Enthalten:
+- zentrale Login- und Rollenverwaltung
+- zentrale Dashboard- und Navigationslogik
+- zentrale Übersetzungen inkl. Arabisch/RTL
+- zentrales Datenmodell
+- Fahrzeugakten
+- Fahrerakten
+- feste Fahrzeugzuordnung
+- Fahrer bestätigt zugewiesenes Fahrzeug
+- Dokumentenmappe mit Kennzeichen-Verknüpfung
+- Führerscheinarchiv
+- Abfahrtskontrollarchiv
+- Schadensmeldungen
+- automatische Werkstattaufträge
+- Werkstattstatus Offen / In Bearbeitung / Erledigt
+- Werkstattarchiv
+- Auflieger-/Begegnungspunkte
+- Punkte-System
+- kompakte mobile Navigation
+- Managementzugriffe für Hidir, Tamara, Sascha und Marcel
+- Werkstattzugriff
+- Fahrerzugänge Fahrer01 und Fahrer02
+
+Nicht ohne Backend enthalten:
+- echter E-Mail-Versand
+- Cloud-Synchronisation
+- echte Mehrgeräte-Datenbank
+- echte KI-Bildanalyse
+
+Status:
+Finaler Endtest bestanden.

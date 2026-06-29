@@ -1,0 +1,459 @@
+:root{--blue:#0b5ed7;--nav:#061a3a;--bg:#f7f9fc;--card:#fff;--text:#061432;--muted:#667085;--border:#e7edf6;--soft:#f8fafc;--green:#2bbf4b;--yellow:#eab308;--orange:#f97316;--red:#dc2626}body.dark{--bg:#0b1220;--card:#111827;--text:#f8fafc;--muted:#cbd5e1;--border:#334155;--soft:#1f2937;--nav:#040b16}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}button,input,select,textarea{font:inherit}button{border:0;border-radius:16px;padding:13px 16px;background:var(--blue);color:#fff;font-weight:800;cursor:pointer;margin-top:8px}button.secondary{background:#e8f0ff;color:#084aa8}button.danger{background:var(--red)}input,select,textarea{width:100%;border:1px solid var(--border);border-radius:16px;padding:13px;background:var(--card);color:var(--text);margin-top:9px}textarea{min-height:82px}.center{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:22px;background:linear-gradient(145deg,var(--nav),#081226)}.login{width:100%;max-width:520px;background:var(--card);border-radius:32px;padding:28px;box-shadow:0 16px 40px rgba(0,0,0,.16)}.top{height:72px;background:var(--nav);color:#fff;display:flex;align-items:center;justify-content:center;position:sticky;top:0;z-index:10;box-shadow:0 6px 20px rgba(0,0,0,.16)}.topbar{width:100%;max-width:720px;display:grid;grid-template-columns:52px 1fr 52px;align-items:center;padding:0 14px}.hamb{font-size:28px}.brand{display:flex;align-items:center;justify-content:center;gap:8px;font-size:20px;font-weight:900;letter-spacing:.5px}.brand img{height:34px;width:34px;object-fit:contain;border-radius:8px;background:#fff}.bell{font-size:26px;text-align:right}.app{max-width:720px;margin:0 auto;padding:22px 18px 104px}.hero{display:grid;grid-template-columns:108px 1fr;gap:10px;align-items:center;margin:18px 0 22px}.sun{font-size:76px;text-align:center}.hero h1{font-size:38px;line-height:1.08;margin:0 0 12px}.hero p{font-size:19px;color:var(--muted);margin:0}.card{background:var(--card);border:1px solid var(--border);border-radius:26px;padding:22px;box-shadow:0 8px 28px rgba(15,23,42,.07);margin-bottom:14px}.tilegrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.tile{min-height:215px;display:flex;flex-direction:column;justify-content:space-between}.tileHead{display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:900}.arrow{font-size:28px;color:#4b5563}.circle{width:98px;height:98px;border-radius:999px;margin:12px auto;display:flex;align-items:center;justify-content:center;font-size:52px}.greenCircle{background:#dff8e5;color:var(--green)}.redCircle{background:#fde8e8;color:#cc241d}.mini{text-align:center;color:var(--muted);line-height:1.45}.greenText{color:var(--green);font-size:18px;font-weight:900;text-align:center}.blueLink{color:#0b5ed7;font-weight:800;text-align:center}.donut{width:120px;height:120px;border-radius:50%;margin:8px auto;background:conic-gradient(var(--green) 0 76%,#facc15 76% 100%);position:relative}.donut:after{content:"";position:absolute;inset:28px;background:var(--card);border-radius:50%}.donutText{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-weight:900;font-size:28px;z-index:2}.donutText span{font-size:14px;font-weight:500;color:var(--muted)}.safety{display:flex;align-items:center;gap:18px;margin-top:24px;background:#eef6ff}.shield{font-size:52px}.safety h2{margin:0 0 8px}.safety p{margin:0;color:var(--text);font-size:16px;line-height:1.4}.nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-top:1px solid var(--border);display:grid;gap:0;z-index:20;padding:6px 0 max(8px,env(safe-area-inset-bottom))}body.dark .nav{background:rgba(17,24,39,.96)}.nav button{background:transparent;color:#667085;font-size:12px;border-radius:0;padding:6px 0;margin:0}.nav button.active{color:var(--blue)}.navIcon{font-size:26px;display:block;margin-bottom:2px}.sectionTitle{font-size:28px;margin:0 0 14px}.row{display:flex;justify-content:space-between;gap:10px;align-items:center;background:var(--soft);border-radius:18px;padding:13px;margin-top:10px}.muted{color:var(--muted)}.warn{background:#fff7ed;color:#9a3412;border:1px solid #fed7aa;border-radius:18px;padding:14px;margin-bottom:14px}.ok{background:#ecfdf5;color:#166534;border:1px solid #bbf7d0;border-radius:18px;padding:14px;margin-top:10px}.checkitem{background:var(--soft);border-radius:18px;padding:13px;margin:10px 0}.metricGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.metric{background:var(--card);border:1px solid var(--border);border-radius:22px;padding:18px}.metric b{font-size:30px;display:block}.tag{display:inline-block;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800}.green{background:#dcfce7;color:#166534}.yellow{background:#fef9c3;color:#854d0e}.orange{background:#ffedd5;color:#9a3412}.red{background:#fee2e2;color:#991b1b}.sig{width:100%;height:180px;border:2px dashed var(--border);border-radius:18px;background:#fff;touch-action:none}.tip{background:var(--soft);border-radius:18px;padding:14px;margin:10px 0}.photoList{font-size:13px;color:var(--muted);margin-top:8px}.small{font-size:13px}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:430px){.hero{grid-template-columns:92px 1fr}.sun{font-size:62px}.hero h1{font-size:32px}.tile{min-height:198px;padding:18px}.tileHead{font-size:16px}.circle{width:86px;height:86px;font-size:44px}.donut{width:104px;height:104px}.safety p{font-size:15px}.two{grid-template-columns:1fr}}
+.nohamb{grid-template-columns:52px 1fr 52px}
+.bellBtn{position:relative;background:transparent;color:#fff;font-size:26px;padding:6px;border-radius:999px;margin:0}
+.bellBadge{position:absolute;right:-4px;top:0;background:#ef4444;color:#fff;border-radius:999px;font-size:11px;line-height:1;padding:3px 6px;font-weight:900}
+
+.backBtn{margin-bottom:14px}
+
+
+/* Fleet Control V17.8 – Lavender Mist Design */
+:root{
+  --lm-bg:#20232A; --lm-bg-2:#171A20; --lm-card:#2D3340; --lm-card-2:#383F4D;
+  --lm-line:rgba(244,246,248,.10); --lm-text:#F4F6F8; --lm-muted:#AEB7C2;
+  --lm-primary:#B9BDD8; --lm-primary-2:#9B9DD8;
+  --lm-success:#A7C5AE; --lm-warning:#D8C8A7; --lm-danger:#D3A8A8; --lm-info:#AFC1D4;
+  --lm-shadow:0 18px 50px rgba(0,0,0,.30); --lm-radius:18px;
+}
+*{box-sizing:border-box}
+html,body{
+  background:radial-gradient(circle at 20% -10%, rgba(185,189,216,.14), transparent 34%),
+             radial-gradient(circle at 90% 20%, rgba(175,193,212,.10), transparent 30%),
+             linear-gradient(180deg,var(--lm-bg),var(--lm-bg-2)) !important;
+  color:var(--lm-text) !important;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif !important;
+}
+body{margin:0}
+.app,main.app{max-width:980px;margin:0 auto;padding:22px 16px 96px !important}
+.card,.hero,.row,.metric,.warn,section.card{
+  background:linear-gradient(180deg,rgba(56,63,77,.72),rgba(45,51,64,.84)) !important;
+  border:1px solid var(--lm-line) !important;border-radius:var(--lm-radius) !important;
+  box-shadow:0 10px 30px rgba(0,0,0,.18) !important;color:var(--lm-text) !important;
+}
+.card{padding:18px !important;margin:14px 0 !important}
+.hero{padding:22px !important;margin:12px 0 18px !important}
+.row{padding:14px 16px !important;margin:10px 0 !important;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.metricGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:14px 0}
+.metric{padding:16px !important}.metric b{font-size:28px;display:block;margin-bottom:4px}
+h1,h2,h3,.sectionTitle{color:var(--lm-text) !important;letter-spacing:-.02em}
+small,.muted,p{color:var(--lm-muted)}
+button,.primary{
+  min-height:48px;border-radius:14px !important;border:1px solid rgba(244,246,248,.10) !important;
+  background:linear-gradient(180deg,var(--lm-primary),#9EA6C9) !important;color:#17202B !important;
+  font-weight:700 !important;box-shadow:0 12px 26px rgba(155,157,216,.18) !important;padding:12px 16px !important;
+}
+button.secondary,.secondary{background:rgba(255,255,255,.055) !important;color:var(--lm-text) !important;box-shadow:none !important}
+button.danger,.danger{background:rgba(211,168,168,.18) !important;color:#FFD1D1 !important}
+input,select,textarea{
+  width:100%;min-height:46px;border-radius:14px !important;border:1px solid rgba(244,246,248,.10) !important;
+  background:rgba(15,18,24,.48) !important;color:var(--lm-text) !important;padding:12px 14px !important;outline:none;
+}
+textarea{min-height:96px} label{display:block;color:var(--lm-muted);font-size:13px;margin:12px 0 6px}
+.nav{position:fixed !important;left:50%;transform:translateX(-50%);bottom:14px;width:min(960px,calc(100% - 24px));
+  background:rgba(32,35,42,.88) !important;backdrop-filter:blur(18px);border:1px solid rgba(244,246,248,.10) !important;
+  border-radius:22px !important;box-shadow:0 16px 45px rgba(0,0,0,.36);padding:8px !important;display:flex;justify-content:space-around;gap:6px;z-index:50}
+.nav button{background:transparent !important;color:var(--lm-muted) !important;box-shadow:none !important;border:0 !important;min-height:46px;font-size:12px}
+.nav button.active,.nav button:hover{color:var(--lm-primary) !important;background:rgba(185,189,216,.09) !important}
+.topbar{background:rgba(23,26,32,.72) !important;backdrop-filter:blur(18px);border-bottom:1px solid rgba(244,246,248,.08) !important;color:var(--lm-text) !important}
+.tag.green,.green{background:rgba(167,197,174,.18)!important;color:var(--lm-success)!important}
+.tag.red,.red{background:rgba(211,168,168,.18)!important;color:var(--lm-danger)!important}
+.tag.yellow,.yellow{background:rgba(216,200,167,.18)!important;color:var(--lm-warning)!important}
+
+/* Lavender Mist Login */
+.lm-login{min-height:100vh;display:grid;grid-template-columns:1fr 1.05fr;gap:38px;padding:44px;background:radial-gradient(circle at 16% 18%,rgba(185,189,216,.16),transparent 28%),linear-gradient(135deg,#171A20,#20232A 52%,#171A20)}
+.lm-login-left{display:flex;flex-direction:column;justify-content:center;max-width:620px}
+.lm-brand{display:flex;gap:18px;align-items:center;margin-bottom:80px}
+.lm-logo{width:64px;height:64px;border-radius:18px;display:grid;place-items:center;color:#20232A;font-weight:900;font-size:34px;background:linear-gradient(135deg,#D8D6FF,#9B9DD8);box-shadow:0 12px 34px rgba(185,189,216,.22)}
+.lm-brand h1{margin:0;font-size:34px;letter-spacing:.08em}.lm-brand p{margin:4px 0 0;color:var(--lm-muted)}
+.lm-welcome h2{font-size:36px;margin:0 0 10px}.lm-welcome p{font-size:18px;margin:0 0 30px}
+.lm-login-form{display:grid;gap:16px}.lm-field{margin:0;display:flex;gap:12px;align-items:center;padding:0 16px;border:1px solid rgba(244,246,248,.12);background:rgba(45,51,64,.48);border-radius:18px}
+.lm-field span{opacity:.86}.lm-field input{border:0!important;background:transparent!important;padding:18px 4px!important;font-size:16px}.lm-primary{height:58px;font-size:18px;margin-top:8px}
+.lm-role-title{text-align:center;color:var(--lm-muted);margin:30px 0 16px}.lm-role-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.lm-role{min-height:104px;border:1px solid rgba(244,246,248,.10);background:rgba(45,51,64,.52);border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;text-align:center}
+.lm-role b{font-size:14px}.lm-role small{font-size:11px;color:var(--lm-muted)}.lm-footer{margin-top:44px;color:var(--lm-muted);display:flex;gap:20px}
+.lm-login-right{min-height:calc(100vh - 88px);border:1px solid rgba(244,246,248,.10);border-radius:28px;box-shadow:var(--lm-shadow);overflow:hidden;background:linear-gradient(180deg,rgba(185,189,216,.28),rgba(32,35,42,.08) 40%,rgba(15,18,24,.86)),radial-gradient(circle at 50% 20%,rgba(185,189,216,.35),transparent 38%),linear-gradient(135deg,#263040,#11151c);position:relative}
+.lm-login-right:before{content:"";position:absolute;inset:0;background:linear-gradient(140deg,transparent 0 42%,rgba(255,255,255,.05) 43% 44%,transparent 45%),linear-gradient(0deg,rgba(0,0,0,.45),transparent 70%)}
+.lm-hero-card{position:absolute;left:32px;right:32px;bottom:32px;border-radius:24px;border:1px solid rgba(255,255,255,.14);background:rgba(32,35,42,.70);backdrop-filter:blur(18px);padding:28px}
+.lm-hero-card h2{margin:0 0 8px;font-size:28px}.lm-benefits{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}.lm-benefits span{color:var(--lm-text)}
+@media(max-width:900px){.lm-login{grid-template-columns:1fr;padding:24px}.lm-login-right{display:none}.lm-brand{margin-bottom:42px}.lm-role-grid{grid-template-columns:repeat(2,1fr)}.lm-welcome h2{font-size:30px}}
+
+/* V17.8.1 Stabilisierung */
+.checkrow{display:flex!important;align-items:center!important;gap:14px!important;min-height:58px!important;padding:12px 0!important;color:var(--lm-text)!important;font-size:17px!important}
+.checkrow input{width:26px!important;height:26px!important;min-height:26px!important;accent-color:var(--lm-primary)}
+.checkrow span{flex:1}
+.sectionTitle{font-size:30px!important;margin:18px 0 14px!important}
+.tilegrid{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))!important;gap:14px!important}
+.card.tile{min-height:155px!important}
+.lm-primary.primary{width:100%;min-height:62px!important;font-size:18px!important;margin:18px 0 26px!important}
+canvas#sig{width:100%;max-width:100%;background:rgba(15,18,24,.45);border:1px solid rgba(244,246,248,.12);border-radius:16px}
+
+
+/* V17.9 Zielversion nach Referenzbild */
+body{background:#111820!important}
+.top{display:none!important}
+.ziel-app{max-width:1500px!important;padding:28px 18px 110px!important}
+.rolePageTitle{display:flex;align-items:center;gap:16px;margin:0 0 18px;color:#f7f7fb}
+.rolePageTitle .roleIcon{font-size:34px;color:#c8b8ff}
+.rolePageTitle h1{margin:0;font-size:26px;letter-spacing:.01em}
+.rolePageTitle p{margin:2px 0 0;color:#aeb7c2}
+.rolePhone{max-width:390px;margin:0 auto 20px;background:linear-gradient(180deg,#202733,#171e27)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:30px!important;padding:22px!important;box-shadow:0 22px 55px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.03)!important;min-height:720px}
+.phoneGreeting{display:flex;justify-content:space-between;align-items:center;color:#c7d0dc;font-size:15px}
+.phoneGreeting h2,.rolePhone h2{font-size:32px;margin:8px 0 26px;color:#fff}
+.settingsBtn{background:transparent!important;color:#d6d2ff!important;border:0!important;box-shadow:none!important;min-height:32px!important;padding:4px 8px!important;font-size:22px}
+.miniLabel{font-size:12px;text-transform:uppercase;color:#aeb7c2;letter-spacing:.06em;margin:20px 0 10px}
+.comboBox{display:grid;grid-template-columns:70px 1fr auto;gap:12px;align-items:center;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:12px;margin-bottom:14px}
+.comboBox b{display:block;color:#fff}.comboBox small{display:block;color:#b5beca}.truckThumb{width:64px;height:44px;border-radius:10px;background:rgba(255,255,255,.10);display:grid;place-items:center}.truckThumb.trailer{font-size:26px}.comboStatus{grid-column:3;grid-row:1;color:#a7c5ae;font-size:12px}.statusDot{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:10px;vertical-align:-2px}.statusDot.ok{background:#a7c5ae}.statusDot.warn{background:#d8c8a7}.statusDot.bad{background:#d3a8a8}
+.mainAction{width:100%;min-height:78px!important;border-radius:16px!important;background:linear-gradient(135deg,#d7d0ff,#a89fda)!important;color:#fff!important;display:flex!important;align-items:center!important;gap:18px!important;justify-content:flex-start!important;font-size:18px!important;text-align:left!important;box-shadow:0 16px 35px rgba(185,189,216,.25)!important;margin:18px 0!important}
+.mainAction.small{min-height:54px!important;justify-content:center!important;font-size:15px!important}
+.mainIcon{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.85);color:#20232a;display:grid;place-items:center;font-size:24px}
+.chev{margin-left:auto;font-size:24px;color:rgba(255,255,255,.75)}
+.todayList{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:12px;margin-top:20px}
+.todayList div{display:flex;align-items:center;padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.06);color:#f4f6f8}
+.todayList div:last-child{border-bottom:0}.todayList span{margin-left:auto;color:#aeb7c2}
+.roleCard,.statCard,.kpiCard{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;margin:12px 0;color:#f4f6f8}
+.roleCard b,.statCard b{display:block;font-size:15px}.roleCard small,.statCard small{display:block;color:#aeb7c2}.roleCardIcon,.statIcon{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:rgba(185,189,216,.18);font-size:24px}.statCard.ok .statIcon{background:rgba(167,197,174,.35)}.statCard.warn .statIcon{background:rgba(216,200,167,.35)}.statCard.bad .statIcon{background:rgba(211,168,168,.35)}
+.pill{margin-left:auto;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08);border-radius:999px;padding:6px 10px;color:#d8d0ff;font-size:12px}
+.quickGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.quickGrid button{min-height:88px!important;background:rgba(255,255,255,.06)!important;color:#f4f6f8!important;box-shadow:none!important}
+.kpiCard{display:grid;grid-template-columns:1fr auto;gap:8px}.kpiCard span{color:#aeb7c2}.kpiCard b{font-size:28px}.spark{width:120px;height:34px}
+.ziel-nav{max-width:430px!important;border-radius:24px!important;background:rgba(20,27,36,.92)!important}.ziel-nav button{font-size:12px!important}
+.settingsPanel .settingsList{display:grid;gap:10px;margin:18px 0}.settingsPanel .settingsList button{background:rgba(255,255,255,.055)!important;color:#f4f6f8!important;box-shadow:none!important;display:flex!important;justify-content:space-between!important}
+.logoutAction{width:100%;margin-top:18px;background:rgba(211,168,168,.14)!important;color:#ffb7b7!important;box-shadow:none!important;border:1px solid rgba(211,168,168,.28)!important}
+@media(min-width:1000px){.ziel-app{display:block}.rolePhone{max-width:420px}}
+
+/* V17.9.3 Chef-Vollübersicht + Passwort anzeigen */
+.passwordField{position:relative}
+.showPassBtn{background:transparent!important;border:0!important;box-shadow:none!important;color:#d8d0ff!important;min-height:34px!important;width:44px!important;padding:4px!important;font-size:18px!important}
+.chefFullGrid{max-width:1100px;margin:18px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.chefRow{max-width:1100px;margin-left:auto!important;margin-right:auto!important}
+.pill.ok{color:#a7c5ae!important}.pill.warn{color:#d8c8a7!important}
+
+/* V17.9.5 functional fixes only */
+#sig{touch-action:none;background:#fff!important}
+
+/* MASTER V18.3 Dashboard */
+#sig{touch-action:none;background:#fff!important}
+.exactDash{max-width:1180px;margin:0 auto;padding:8px 0 120px}
+.dashHero{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin:10px 0 28px}
+.dashHero h1{font-size:42px;line-height:1.12;margin:0 0 10px;color:var(--lm-text,#f4f6f8)}
+.dashHero p{margin:0;color:var(--lm-muted,#aeb7c2);font-size:17px}
+.dashClock{min-width:230px;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.09);border-radius:20px;padding:18px;text-align:center;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.dashClock small{display:block;color:var(--lm-muted,#aeb7c2);margin-bottom:12px}.dashClock b{font-size:28px}
+.dashKpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:20px}
+.dashKpi,.dashPanel{background:linear-gradient(180deg,rgba(56,63,77,.72),rgba(45,51,64,.84));border:1px solid rgba(244,246,248,.10);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.18);padding:20px}
+.dashKpi span{font-weight:700}.dashKpi div{display:flex;align-items:center;gap:18px;margin:24px 0 8px}.dashKpi i{font-style:normal;font-size:34px}.dashKpi b{font-size:38px}.dashKpi small{font-weight:700}
+.dashGridTwo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}.dashGridThree{display:grid;grid-template-columns:1fr 1fr 1.35fr;gap:16px;margin-bottom:18px}
+.dashPanel h2{font-size:19px;margin:0 0 18px;display:flex;justify-content:space-between;align-items:center}.dashPanel h2 button,.dashLink{background:transparent!important;border:0!important;box-shadow:none!important;color:#8dbbff!important;min-height:auto!important;padding:0!important;font-size:13px}
+.dashListRow{display:grid;grid-template-columns:auto 1fr auto auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}.dashListRow:last-child{border-bottom:0}
+.dashAvatar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.08)}.dashPlate{background:rgba(255,255,255,.08);border-radius:8px;padding:6px 10px;font-weight:700}
+.dashStatus{border-radius:999px;padding:6px 10px;font-weight:700;font-size:13px}.dashStatus.green{background:rgba(167,197,174,.18);color:#a7c5ae}.dashStatus.yellow{background:rgba(216,200,167,.18);color:#d8c8a7}.dashStatus.red{background:rgba(211,168,168,.18);color:#d3a8a8}.dashStatus.blue{background:rgba(175,193,212,.18);color:#afc1d4}
+.dashPoint{background:rgba(167,197,174,.18);color:#a7c5ae;padding:6px 10px;border-radius:10px;font-weight:800}
+.dashMetricLine{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:11px 0}.green{color:#a7c5ae!important}.blue{color:#8dbbff!important}.red{color:#ff9d9d!important}.orange{color:#ffc477!important}.yellow{color:#f2d36b!important}
+.dashDonut{width:180px;height:180px;margin:10px auto;border-radius:50%;background:conic-gradient(#50c878 0 58%,#ffca3a 58% 78%,#ff5a5a 78% 100%);display:grid;place-items:center}.dashDonut>div{width:105px;height:105px;border-radius:50%;background:#202733;display:grid;place-items:center;text-align:center}.dashDonut b{font-size:36px}.dashDonut small{display:block;color:var(--lm-muted,#aeb7c2)}
+.dashLegend{display:grid;gap:8px;margin:10px 0 16px}.dashMsg{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}.dashMsg:last-child{border-bottom:0}.dashMsg small{display:block;color:var(--lm-muted,#aeb7c2)}
+.dashQuick{display:grid;grid-template-columns:1fr 1fr;gap:12px}.dashQuick button{background:rgba(255,255,255,.055)!important;color:var(--lm-text,#f4f6f8)!important;box-shadow:none!important;min-height:92px!important}.dashQuick button:last-child{grid-column:1/3}
+@media(max-width:900px){.dashHero{display:block}.dashClock{margin-top:18px}.dashKpis,.dashGridTwo,.dashGridThree{grid-template-columns:1fr}.dashHero h1{font-size:34px}.exactDash{padding:0 4px 120px}.dashKpi,.dashPanel{padding:16px}}
+
+/* V18.7 fixes */
+.loginError{margin:10px 0 0;padding:12px 14px;border-radius:12px;background:rgba(255,80,80,.16);border:1px solid rgba(255,80,80,.38);color:#ffb4b4;font-weight:700}
+.dashHero h1{border-left:0!important;padding-left:0!important}
+.exactDash h1:before,.dashHero h1:before{display:none!important;content:none!important}
+input[type="date"]{color-scheme:dark;min-height:46px}
+select,input,textarea{max-width:100%}
+
+/* V18.8 workshop suite */
+.workItem{display:grid;grid-template-columns:1fr 180px;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.workItem small{display:block;color:var(--muted,#bbc);margin-top:5px}
+@media(max-width:760px){.workItem{grid-template-columns:1fr}}
+
+/* V18.8 management workshop insight */
+.workControls{display:grid;gap:8px}
+.workControls input{min-width:180px}
+
+/* V18.9 final consolidated fixes */
+.loginError{margin:10px 0 0;padding:12px 14px;border-radius:12px;background:rgba(255,80,80,.16);border:1px solid rgba(255,80,80,.38);color:#ffb4b4;font-weight:700}
+.dashHero h1{border-left:0!important;padding-left:0!important}
+.exactDash h1:before,.dashHero h1:before{display:none!important;content:none!important}
+input[type="date"],input[type="datetime-local"]{color-scheme:dark;min-height:46px}
+select,input,textarea{max-width:100%}
+.workControls{display:grid;gap:8px}
+.workControls input{min-width:180px}
+
+/* === V18.9 LOGIN PAGE RESTORE V18.7 STYLE CSS === */
+.loginPage.loginV187{min-height:100vh;display:grid;grid-template-columns:minmax(360px,560px) minmax(320px,520px);gap:48px;align-items:center;justify-content:center;padding:44px;box-sizing:border-box}
+.loginV187 .loginCard,.loginV187 .loginInfo{background:linear-gradient(180deg,rgba(45,52,65,.78),rgba(29,35,47,.88));border:1px solid rgba(255,255,255,.12);border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.34);backdrop-filter:blur(16px)}
+.loginV187 .loginCard{padding:38px;width:100%;box-sizing:border-box}
+.loginV187 .brand{display:flex;align-items:center;gap:16px;margin-bottom:48px}
+.loginV187 .brandIcon{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(205,190,255,.18);font-size:28px}
+.loginV187 .brand h1{margin:0;font-size:34px;line-height:1.05}
+.loginV187 .brand p{margin:8px 0 0;color:rgba(255,255,255,.72);font-size:16px}
+.loginV187 .loginCard>h2{margin:0 0 10px;font-size:38px;line-height:1.05;letter-spacing:-.03em}
+.loginV187 .loginCard>.muted{margin:0 0 28px;color:rgba(255,255,255,.72);font-size:17px}
+.loginV187 .loginFormClean{display:grid;gap:14px}
+.loginV187 .inputIcon{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:0 14px;box-sizing:border-box;background:rgba(11,18,28,.78);border:1px solid rgba(255,255,255,.14);border-radius:16px}
+.loginV187 .inputIcon input{flex:1;min-width:0;border:0!important;outline:0!important;background:transparent!important;color:#fff!important;font-size:16px;padding:0!important}
+.loginV187 .inputIcon input::placeholder{color:rgba(255,255,255,.56)}
+.loginV187 .eyeBtn{width:38px!important;min-height:38px!important;padding:0!important;border:0!important;background:rgba(255,255,255,.08)!important;border-radius:12px!important;box-shadow:none!important}
+.loginV187 .loginBtn{margin-top:4px;width:100%;min-height:58px;border-radius:18px;font-size:17px;font-weight:800}
+.loginV187 .roleTiles{margin-top:30px;display:grid;grid-template-columns:repeat(5,minmax(82px,1fr));gap:10px}
+.loginV187 .roleTiles div{min-height:88px;padding:12px 8px;border-radius:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.10);text-align:center;display:flex;flex-direction:column;justify-content:center;gap:4px}
+.loginV187 .roleTiles b{display:block;font-size:13px;line-height:1.15}
+.loginV187 .roleTiles small{display:block;font-size:11px;line-height:1.2;color:rgba(255,255,255,.65)}
+.loginV187 .foot{margin-top:26px;font-size:14px}
+.loginV187 .loginInfo{padding:38px;min-height:360px;display:flex;flex-direction:column;justify-content:center}
+.loginV187 .loginInfo h2{margin:0 0 14px;font-size:34px;line-height:1.1}
+.loginV187 .loginInfo p{color:rgba(255,255,255,.76);font-size:17px}
+.loginV187 .chips{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}
+.loginV187 .chips span{padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.10)}
+.loginV187 .loginInfo small{color:rgba(255,255,255,.58)}
+@media(max-width:980px){.loginPage.loginV187{grid-template-columns:1fr;padding:24px;gap:20px}.loginV187 .loginInfo{display:none}.loginV187 .roleTiles{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.loginPage.loginV187{padding:14px}.loginV187 .loginCard{padding:24px;border-radius:24px}.loginV187 .brand{margin-bottom:34px}.loginV187 .brand h1{font-size:28px}.loginV187 .loginCard>h2{font-size:31px}.loginV187 .roleTiles{grid-template-columns:1fr}}
+
+/* V18.9 manual vehicle fix */
+.manualVehicleBox{margin:14px 0;padding:14px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background:rgba(255,255,255,.05)}
+.manualVehicleBox h2,.manualVehicleBox h3{margin-top:0}
+.vehicleCard.selected{outline:2px solid rgba(205,190,255,.75)}
+
+
+/* === V18.9 NO TEXT SELECTION / APP CURSOR FIX CSS === */
+
+/* Keine Markierung, kein Text-I-Cursor auf normalen App-Flächen */
+html, body, #root, main, nav, section, article, aside, header, footer,
+div, span, p, h1, h2, h3, h4, h5, h6, small, b, strong, label,
+button, a, li, ul, ol, table, tr, td, th, canvas {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
+  cursor: default !important;
+}
+
+/* Buttons und klickbare Kacheln behalten Hand-Cursor */
+button,
+[onclick],
+.nav button,
+.roleTiles div,
+.vehicleCard,
+.todayList div,
+.settingsList button,
+.dashLink,
+.bigCta {
+  cursor: pointer !important;
+}
+
+/* Eingabefelder bleiben weiterhin nutzbar */
+input,
+textarea,
+select,
+option {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+  cursor: text !important;
+  caret-color: auto !important;
+}
+
+/* Select-Felder sollen optisch nicht wie markierbarer Text wirken */
+select,
+option {
+  cursor: pointer !important;
+}
+
+/* Browser-Markierung unsichtbar auf App-Texten */
+::selection {
+  background: transparent;
+  color: inherit;
+}
+input::selection,
+textarea::selection {
+  background: rgba(180,160,255,.45);
+  color: inherit;
+}
+
+/* Verhindert versehentliche blaue Markierungen auf mobilen/Touch-Geräten */
+.fcNoSelectActive *:not(input):not(textarea):not(select):not(option) {
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
+
+/* === FLEET CONTROL MASTER V18.10 FINAL CSS === */
+.vehicleFileForm{display:grid;gap:12px}
+.vehicleFileForm label{display:grid;gap:6px}
+.vehicleFileForm input,.vehicleFileForm select,.vehicleFileForm textarea{width:100%;box-sizing:border-box}
+.driverHero{display:flex;justify-content:space-between;gap:16px}
+.driverClock{min-width:150px;text-align:center}
+.driverGridCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+.driverDashCard{padding:16px;border-radius:20px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.10);cursor:pointer!important}
+.driverDashCard b{font-size:30px;display:block}
+.driverFileRow{cursor:pointer!important}
+.woCard{grid-template-columns:1fr minmax(180px,280px)}
+.woEdit{display:grid;gap:8px;margin-top:12px}
+.woActions{display:grid;gap:8px;align-content:start}
+.woCard.locked{opacity:.82;border-left:3px solid rgba(255,180,80,.8)}
+.woCard textarea,.woCard input{width:100%;box-sizing:border-box}
+.fileLabel{display:grid;gap:8px}
+html, body, #root, main, nav, section, article, aside, header, footer, div, span, p, h1, h2, h3, h4, h5, h6, small, b, strong, label, button, a, li, ul, ol, table, tr, td, th, canvas{-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important;user-select:none!important;-webkit-touch-callout:none!important;cursor:default!important}
+button,[onclick],.nav button,.roleTiles div,.vehicleCard,.todayList div,.settingsList button,.dashLink,.bigCta{cursor:pointer!important}
+input,textarea,select,option{-webkit-user-select:text!important;-moz-user-select:text!important;-ms-user-select:text!important;user-select:text!important;cursor:text!important;caret-color:auto!important}
+select,option{cursor:pointer!important}
+::selection{background:transparent;color:inherit}
+input::selection,textarea::selection{background:rgba(180,160,255,.45);color:inherit}
+@media(max-width:760px){.woCard{grid-template-columns:1fr}.woActions{grid-template-columns:1fr}}
+@media(max-width:560px){.driverHero{display:block}.driverGridCards{grid-template-columns:1fr}}
+
+/* === V18.10 Driver layout fix === */
+.driverHomeClean{width:min(100%,760px);margin:0 auto;padding:18px 12px 110px;box-sizing:border-box}
+.driverHeaderClean{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:start;margin-bottom:18px}
+.driverHeaderClean small{opacity:.82;font-weight:700;letter-spacing:.02em}
+.driverHeaderClean h1{margin:4px 0 0;font-size:clamp(34px,7vw,58px);line-height:.95}
+.driverTimeCard{min-width:128px;padding:16px 18px;border-radius:24px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);text-align:center;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.driverTimeCard small{display:block;font-size:12px}.driverTimeCard strong{display:block;font-size:30px;line-height:1.05;margin-top:6px}.driverTimeCard span{font-weight:800}
+.driverActionGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 18px}
+.driverActionGrid button{min-height:122px;display:grid;gap:6px;align-content:center;justify-items:start;text-align:left;padding:18px;border-radius:24px;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.14)}
+.driverActionGrid span{font-size:28px}.driverActionGrid b{font-size:17px}.driverActionGrid strong{font-size:28px}.driverActionGrid small{opacity:.78}
+.driverVehiclePanel{padding:18px;border-radius:26px;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.14);margin-top:10px}
+.driverVehiclePanel h2{margin:0 0 12px;font-size:22px}
+.currentVehicleClean{display:flex;gap:12px;align-items:center;padding:14px;border-radius:18px;background:rgba(0,0,0,.18);margin-bottom:12px}
+.currentVehicleClean span{font-size:26px}.currentVehicleClean b{overflow-wrap:anywhere}
+.driverVehicleOptions{display:grid;gap:8px}
+.driverVehicleOption{width:100%;display:grid;grid-template-columns:auto 1fr;gap:8px 10px;align-items:center;text-align:left;padding:12px;border-radius:16px;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.10)}
+.driverVehicleOption.selected{outline:2px solid rgba(210,190,255,.55)}.driverVehicleOption small{grid-column:2;opacity:.75}
+.manualVehicleInline{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:12px}.manualVehicleInline input{min-width:0}
+.driverSafetyCard{display:flex;gap:12px;align-items:center;margin-top:14px;padding:14px 16px;border-radius:20px;background:rgba(255,255,255,.065);border:1px solid rgba(255,255,255,.12)}
+.driverSafetyCard span{font-size:26px}.driverSafetyCard small{display:block;opacity:.78;margin-top:2px}
+@media(max-width:620px){.driverHeaderClean{grid-template-columns:1fr}.driverTimeCard{justify-self:stretch}.driverActionGrid{grid-template-columns:1fr 1fr}.manualVehicleInline{grid-template-columns:1fr}}
+
+/* === V18.10 Fahrerakte bearbeiten === */
+.driverEditForm{
+  display:grid;
+  gap:12px;
+  border-left:3px solid rgba(210,190,255,.65);
+}
+.driverEditForm label{
+  display:grid;
+  gap:6px;
+  font-weight:800;
+}
+.driverEditForm input,.driverEditForm select{
+  width:100%;
+  box-sizing:border-box;
+}
+.driverEditForm button{
+  margin-top:6px;
+}
+
+/* === V18.10 Punkte-Infos in Fahrerakte === */
+.driverEditForm textarea#dfPointInfoNew{
+  min-height:100px;
+  width:100%;
+  box-sizing:border-box;
+}
+.pointInfoItem{
+  padding:10px 12px;
+  border-radius:14px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.10);
+}
+
+/* === V18.10 Auflieger-Treffpunkte === */
+.trailerMeetingForm{
+  display:grid;
+  gap:12px;
+}
+.trailerMeetingForm label{
+  display:grid;
+  gap:6px;
+  font-weight:800;
+}
+.trailerMeetingForm input,.trailerMeetingForm textarea{
+  width:100%;
+  box-sizing:border-box;
+}
+.trailerMeetingForm textarea{
+  min-height:90px;
+}
+.trailerMeetingItem{
+  padding:14px;
+  border-radius:18px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.10);
+  margin:10px 0;
+}
+.trailerMeetingItem small{
+  display:block;
+  opacity:.78;
+  margin-top:4px;
+}
+.trailerMeetingItem .trailerMeetingForm{
+  margin-top:12px;
+  background:rgba(0,0,0,.10);
+}
+
+/* === FleetControl V18.11 Final === */
+.driverNoticeForm{display:grid;gap:12px}
+.driverNoticeForm label{display:grid;gap:6px;font-weight:800}
+.driverNoticeForm textarea{min-height:100px}
+.driverNoticeForm input,.driverNoticeForm select,.driverNoticeForm textarea{width:100%;box-sizing:border-box}
+.driverNoticeItem{padding:14px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);margin:10px 0}
+.driverNoticeItem small{display:block;opacity:.76;margin-top:4px}
+.noticeActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+
+
+/* === FLEETCONTROL MASTER RELEASE AB CSS === */
+.driverNoticeForm{display:grid;gap:12px}
+.driverNoticeForm label{display:grid;gap:6px;font-weight:800}
+.driverNoticeForm textarea{min-height:96px}
+.driverNoticeForm input,.driverNoticeForm select,.driverNoticeForm textarea{width:100%;box-sizing:border-box}
+.driverNoticeItem{padding:14px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);margin:10px 0}
+.driverNoticeItem small{display:block;opacity:.76;margin-top:4px}
+.noticeActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.bottomNav,.phoneNav,.mobileNav,nav.bottom,.tabbar,.roleBottomNav,.appBottomNav,[class*="bottomNav"],[class*="BottomNav"],[class*="phoneNav"],[class*="tabbar"]{left:max(6px,env(safe-area-inset-left))!important;right:max(6px,env(safe-area-inset-right))!important;bottom:max(6px,env(safe-area-inset-bottom))!important;width:auto!important;max-width:calc(100vw - 12px)!important;min-width:0!important;min-height:58px!important;height:auto!important;padding:6px!important;border-radius:22px!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:3px!important;box-sizing:border-box!important;overflow:hidden!important}
+.bottomNav button,.phoneNav button,.mobileNav button,nav.bottom button,.tabbar button,.roleBottomNav button,.appBottomNav button,[class*="bottomNav"] button,[class*="BottomNav"] button,[class*="phoneNav"] button,[class*="tabbar"] button{min-width:0!important;width:100%!important;max-width:100%!important;padding:6px 2px!important;border-radius:15px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;white-space:normal!important;overflow:hidden!important;text-align:center!important;line-height:1.05!important;font-size:10.5px!important}
+.bottomNav button span,.phoneNav button span,.mobileNav button span,nav.bottom button span,.tabbar button span,.roleBottomNav button span,.appBottomNav button span,[class*="bottomNav"] button span,[class*="BottomNav"] button span,[class*="phoneNav"] button span,[class*="tabbar"] button span{font-size:20px!important;line-height:1!important;margin:0!important}
+main,.app,#root{padding-bottom:92px!important}
+
+
+/* === FLEETCONTROL MASTER V19 RELEASE STABLE CSS === */
+.driverNoticeForm{display:grid;gap:12px}
+.driverNoticeForm label{display:grid;gap:6px;font-weight:800}
+.driverNoticeForm textarea{min-height:96px}
+.driverNoticeForm input,.driverNoticeForm select,.driverNoticeForm textarea{width:100%;box-sizing:border-box}
+.driverNoticeItem{padding:14px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);margin:10px 0}
+.driverNoticeItem small{display:block;opacity:.76;margin-top:4px}
+.noticeActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.bottomNav,.phoneNav,.mobileNav,nav.bottom,.tabbar,.roleBottomNav,.appBottomNav,[class*="bottomNav"],[class*="BottomNav"],[class*="phoneNav"],[class*="tabbar"]{left:max(6px,env(safe-area-inset-left))!important;right:max(6px,env(safe-area-inset-right))!important;bottom:max(6px,env(safe-area-inset-bottom))!important;width:auto!important;max-width:calc(100vw - 12px)!important;min-width:0!important;min-height:58px!important;height:auto!important;padding:6px!important;border-radius:22px!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:3px!important;box-sizing:border-box!important;overflow:hidden!important}
+.bottomNav button,.phoneNav button,.mobileNav button,nav.bottom button,.tabbar button,.roleBottomNav button,.appBottomNav button,[class*="bottomNav"] button,[class*="BottomNav"] button,[class*="phoneNav"] button,[class*="tabbar"] button{min-width:0!important;width:100%!important;max-width:100%!important;padding:6px 2px!important;border-radius:15px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;white-space:normal!important;overflow:hidden!important;text-align:center!important;line-height:1.05!important;font-size:10.5px!important}
+.bottomNav button span,.phoneNav button span,.mobileNav button span,nav.bottom button span,.tabbar button span,.roleBottomNav button span,.appBottomNav button span,[class*="bottomNav"] button span,[class*="BottomNav"] button span,[class*="phoneNav"] button span,[class*="tabbar"] button span{font-size:20px!important;line-height:1!important;margin:0!important}
+main,.app,#root{padding-bottom:92px!important}
+
+
+/* === FLEETCONTROL PHASE 2.2 DASHBOARD NAVIGATION CSS === */
+.fc22Main{padding:18px 14px 96px;box-sizing:border-box;max-width:980px;margin:0 auto}
+.fc22Greeting{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;margin:10px 0 18px;padding:16px;border-radius:24px;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.12)}
+.fc22Greeting small{opacity:.78;font-weight:800}.fc22Greeting h1{margin:4px 0 2px;font-size:clamp(28px,6vw,46px);line-height:1}.fc22Greeting p{margin:0;opacity:.8;font-weight:700}
+.fc22Clock{min-width:112px;text-align:center;padding:12px 14px;border-radius:18px;background:rgba(0,0,0,.16)}.fc22Clock b{display:block;font-size:24px;line-height:1.1;margin-top:4px}
+.fc22Stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0 18px}.fc22Stats div{border-radius:18px;padding:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);text-align:center}.fc22Stats b{display:block;font-size:24px}.fc22Stats small{opacity:.75}
+.fc22Actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0 18px}.fc22Actions button{min-width:0;padding:12px 6px;border-radius:18px}.fc22Actions span{display:block;font-size:24px}.fc22Actions b{font-size:12px}
+.fc22Card{margin:10px 0}.fc22Menu{display:grid;gap:8px}.fc22Menu button{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;text-align:left;border-radius:18px;padding:12px}.fc22Menu button span{font-size:22px}.fc22Menu button em{font-style:normal;opacity:.6}.fc22Menu label{display:grid;gap:8px}
+.fc22BottomNav{position:fixed!important;left:max(6px,env(safe-area-inset-left))!important;right:max(6px,env(safe-area-inset-right))!important;bottom:max(6px,env(safe-area-inset-bottom))!important;z-index:9999!important;width:auto!important;max-width:calc(100vw - 12px)!important;min-height:58px!important;padding:6px!important;border-radius:22px!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:3px!important;box-sizing:border-box!important;overflow:hidden!important;background:rgba(15,18,28,.92)!important;backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.14)}
+.fc22BottomNav button{min-width:0!important;width:100%!important;max-width:100%!important;padding:6px 2px!important;border-radius:15px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:2px!important;white-space:normal!important;overflow:hidden!important;text-align:center!important;line-height:1.05!important;font-size:10.5px!important}
+.fc22BottomNav button span{font-size:20px!important;line-height:1!important;margin:0!important}.fc22BottomNav button b{font-size:10.5px!important;line-height:1.05!important;max-width:100%!important;overflow:hidden!important;text-overflow:ellipsis!important}.fc22BottomNav button.active{background:rgba(255,255,255,.14)!important}
+@media(max-width:560px){.fc22Main{padding-left:10px;padding-right:10px}.fc22Greeting{grid-template-columns:1fr}.fc22Clock{width:100%;box-sizing:border-box}.fc22Stats,.fc22Actions{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* === FLEETCONTROL PHASE 2.3 TRANSLATION CSS === */
+html[dir="rtl"] body{text-align:right}html[dir="rtl"] .fc22Menu button{text-align:right}html[dir="rtl"] input,html[dir="rtl"] textarea,html[dir="rtl"] select{text-align:right}
+
+/* === FLEETCONTROL PHASE 3.2 MODULE CSS === */
+.fc32Main{padding-bottom:96px}
+.fc32Card{margin:10px 0}
+.fc32Form{display:grid;gap:12px}
+.fc32Form label{display:grid;gap:6px;font-weight:800}
+.fc32Form input,.fc32Form select,.fc32Form textarea{width:100%;box-sizing:border-box}
+.fc32Form textarea{min-height:90px}
+.fc32Item{padding:14px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);margin:10px 0}
+.fc32Item small{display:block;opacity:.76;margin-top:4px}
+.fc32Item button{margin:6px 6px 0 0}
+
+/* === WORKSHOP SIGNATURE CSS === */
+#workshopSignatureOrderId,#workshopSignatureText{width:100%;box-sizing:border-box}

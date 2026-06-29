@@ -1,0 +1,18 @@
+FleetControl MASTER V20 CLEAN REBUILD – Release Candidate
+
+Phase 4.2 Bereinigung & Finalisierung
+
+Bereinigt:
+- temporäre Test-Skripte entfernt
+- finale Build-Metadaten ergänzt
+- Produktivmanifest erstellt
+- keine neuen Fachfunktionen hinzugefügt
+- bestandene Phase-4.1-Funktionen erhalten
+
+Status:
+- Login/Rollen zentralisiert
+- Dashboard/Navigation zentralisiert
+- Übersetzungen zentralisiert
+- Datenmodell zentralisiert
+- Fachmodule konsolidiert
+- Phase 4.1 Integrationstest: 16/16 OK

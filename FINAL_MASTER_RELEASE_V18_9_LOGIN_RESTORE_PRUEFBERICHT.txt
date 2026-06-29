@@ -1,0 +1,8 @@
+Fleet Control Final Master Release V18.9 Login Restore
+
+translations.js: OK
+app.js: OK
+Login-Restore-Test: OK
+LOGIN_RESTORE_OK
+
+Geändert wurde ausschließlich die Login-Seite auf V18.7-Optik. Alle übrigen V18.9-Funktionen bleiben unverändert.

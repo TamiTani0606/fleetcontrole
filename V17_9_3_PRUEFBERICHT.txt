@@ -1,0 +1,6 @@
+Fleet Control V17.9.3 Prüfbericht
+
+translations.js: OK
+app.js: OK
+V17.9.3 Funktionstest: OK
+V17_9_3_CHECK_OK

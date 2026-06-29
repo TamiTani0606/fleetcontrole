@@ -1,0 +1,8 @@
+Fleet Control V17.9.5 Prüfbericht
+
+translations.js: OK
+app.js: OK
+V17.9.5 Funktionstest: OK
+V17_9_5_CHECK_OK
+
+Geändert wurde nur: Punktevergabe-Rechte, Fahrer-Punkteanzeige, digitale Unterschrift, Abfahrtskontrolle und Mail-Queue ohne sichtbaren PDF-Zwischenschritt.

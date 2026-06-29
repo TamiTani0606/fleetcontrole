@@ -1,0 +1,8 @@
+Fleet Control V18.9 Fahrzeug Manuell Fix
+
+translations.js: OK
+app.js: OK
+Manuelle-Fahrzeugauswahl-Test: OK
+MANUAL_VEHICLE_OK
+
+Behoben: Fahrzeug/Kennzeichen kann manuell eingetragen werden und wird in Abfahrtskontrolle, Schadensmeldung und Fahrzeugakte verwendet.

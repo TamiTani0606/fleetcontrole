@@ -1,0 +1,142 @@
+FleetControl Clean Rebuild – Phase 1 Bericht
+============================================================
+Ausgangsdatei: FleetControl_MASTER_V19_RELEASE_STABLE(1).zip
+Dateien/Ordner entpackt: 58
+
+Gefundene Kern-Dateien:
+- app.js: app/app.js
+- translations.js: app/translations.js
+- styles.css: app/styles.css
+
+Patch-Marker im app.js:
+01. LOGIN RESTORE BOOTSTRAP I18N
+02. MASTER RELEASE CONSOLIDATION V18.3
+03. MASTER RELEASE I18N FIX V18.4
+04. V18.4 i18n function overrides
+05. MASTER RELEASE V18.5 FAHRER FAHRZEUG FIX
+06. FINAL MASTER RELEASE V18.6 CLOCK + CONSOLIDATION
+07. FINAL MASTER RELEASE V18.7 FIXES
+08. V18.7 SESSION RESTORE FINAL OVERRIDE
+09. FINAL MASTER RELEASE V18.8 WORKSHOP SUITE
+10. V18.8 WERKSTATT EINSICHT MANAGEMENT
+11. FINAL MASTER RELEASE V18.9 KONSOLIDIERT OHNE EMAIL
+12. V18.9 LOGIN PAGE RESTORE V18.7 STYLE
+13. V18.9 MANUELLE FAHRZEUGAUSWAHL FIX
+14. V18.9 NO TEXT SELECTION / APP CURSOR FIX
+15. FLEET CONTROL MASTER V18.10 FINAL CONSOLIDATION SAFE
+16. V18.10 FALLBACK PAGES FOR FINAL BUILD
+17. V18.10 ROBUST DOCUMENT VISIBILITY PATCH
+18. V18.10 SESSION TAB FIX FINAL
+19. V18.10 DRIVER DASHBOARD LAYOUT FIX
+20. V18.10 FAHRERAKTE BEARBEITEN FIX
+21. V18.10 FAHRERAKTE PUNKTE INFOS FIX
+22. V18.10 AUFLIEGER TREFFPUNKTE FINAL
+23. V18.10 GLOBAL TRANSLATION FIX FINAL
+24. FLEETCONTROL MASTER V18.11 FINAL CLEAN PATCH
+25. FLEETCONTROL MASTER RELEASE AB AUTHORITATIVE CORE
+26. FLEETCONTROL MASTER V19 RELEASE STABLE CORE
+
+Offensichtliche Mehrfachdefinitionen:
+- render: 13x
+- more: 10x
+- go: 8x
+- login: 8x
+- exactManagementDashboard: 7x
+- logout: 7x
+- saveDamage: 7x
+- shell: 7x
+- admin: 6x
+- canAwardPoints: 6x
+- work: 6x
+- isDashboardRole: 5x
+- report: 5x
+- restoreSession: 5x
+- saveAll: 5x
+- workOrdersPage: 5x
+- addVehicle: 4x
+- canApproveAiDamage: 4x
+- completeCheck: 4x
+- costsPage: 4x
+- damageList: 4x
+- deputyPdfArchivePage: 4x
+- driverHome: 4x
+- inspectionPdfHtml: 4x
+- isChefFullAccess: 4x
+- isPureDriver: 4x
+- loginView: 4x
+- queueInspectionMail: 4x
+- setLang: 4x
+- vehicleForm: 4x
+- vehicleHistoryPage: 4x
+- vehicles: 4x
+- approveWorkshopOrder: 3x
+- check: 3x
+- driverFilePage: 3x
+- driverNoticesPage: 3x
+- ensurePdfArchive: 3x
+- home: 3x
+- lockWorkshopOrder: 3x
+- managementWorkshopInsightPage: 3x
+- masterNormalizeUsers: 3x
+- mt: 3x
+- saveDriverNotice: 3x
+- setDriverNoticeStatus: 3x
+- workshopInsightStats: 3x
+- addCost: 2x
+- addManagementComment: 2x
+- addPoint: 2x
+- aiDamageClassByScore: 2x
+- aiDamageScoreByInput: 2x
+- allDrivers: 2x
+- approveAiDamage: 2x
+- archiveInspectionPdf: 2x
+- archiveWorkOrderPdf: 2x
+- canDoInspection: 2x
+- canEditDriverFile: 2x
+- canManageWorkshopInsight: 2x
+- canSeeWorkshopInsight: 2x
+- clearSig: 2x
+- dashOpenChecks: 2x
+- dashStatus: 2x
+- dev: 2x
+- docsVisibleForCurrentUser: 2x
+- documentsPage: 2x
+- driverEditForm: 2x
+- driverTimeBox: 2x
+- end: 2x
+- initSig: 2x
+- licensePage: 2x
+- move: 2x
+- openArchivedPdf: 2x
+- openVehicleFilePdf: 2x
+- partsPage: 2x
+- pointTotal: 2x
+- pointsForm: 2x
+- pointsPage: 2x
+- pos: 2x
+- rejectAiDamage: 2x
+- saveDriverFile: 2x
+- savePdfArchives: 2x
+- saveVehicleFile: 2x
+- start: 2x
+- t: 2x
+- togglePassword: 2x
+- tt: 2x
+- vehicleDisplayName: 2x
+- workshopHome: 2x
+
+Durchgeführte sichere Bereinigung:
+- Zeilenenden normalisiert
+- Leerzeichen am Zeilenende entfernt
+- keine neue Funktionslogik eingebaut
+- keine fachlichen Funktionen entfernt
+
+Syntaxprüfung:
+- app.js: OK
+- translations.js: OK
+
+Smoke-Test:
+- OK
+  Ausgabe: PHASE1_SMOKE_OK
+
+Phase 1 bestanden: Die Arbeitsbasis ist technisch ladbar und bereit für Phase 2.

@@ -1,0 +1,14 @@
+FleetControl MASTER V20 FINAL – Logins
+
+Management:
+- Hidir Daglioglu / Wassermelonen
+- Tamara / Fuhrpark
+- Sascha / Fuhrpark
+- Marcel / Fuhrpark
+
+Werkstatt:
+- Werkstatt / Eisbecher
+
+Fahrer:
+- Fahrer01 / Fahrer2026
+- Fahrer02 / Fahrer2026

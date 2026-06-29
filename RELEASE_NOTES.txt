@@ -1,0 +1,15 @@
+FleetControl MASTER V20 MASTER RELEASE
+
+Dies ist die konsolidierte Master-Release.
+
+Enthalten:
+- App (Master V20 Complete Final Signature Fixed)
+- Final Audit
+- Signature Audit
+- Requirements-to-Code-Review
+- Endtest- und Signaturberichte
+
+Backend-Funktionen (nicht lokal enthalten):
+- E-Mail-Versand
+- Cloud/Server-Datenbank
+- KI-Bildanalyse

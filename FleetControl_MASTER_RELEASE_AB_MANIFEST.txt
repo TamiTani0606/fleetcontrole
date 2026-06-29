@@ -1,0 +1,8 @@
+FleetControl MASTER RELEASE A+B
+- Basis: hochgeladene FleetControl_MASTER_V18_11_FINAL(1).zip
+- finale Logins zentralisiert
+- Rollenrechte zentralisiert
+- Niederländisch entfernt, Arabisch integriert
+- Fahrermeldungen erzeugen automatisch Werkstattaufträge
+- Werkstattstatus: Offen / In Bearbeitung / Erledigt
+- kompakte untere Leiste

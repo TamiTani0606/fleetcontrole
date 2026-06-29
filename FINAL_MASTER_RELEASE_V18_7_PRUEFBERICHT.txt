@@ -1,0 +1,17 @@
+Fleet Control Final Master Release V18.7
+
+translations.js: OK
+app.js: OK
+V18.7-Test: OK
+V18_7_OK
+
+Behoben:
+- Dateneingaben und Fahrzeugerfassung robuster
+- HU/TÜV, SP und Tachoprüfung speicherbar
+- Inline-Loginfehler unter dem Button
+- angemeldet bleiben nach Aktualisierung
+- aktuelle Seite bleibt nach Aktualisierung erhalten
+- Strich vor Guten Morgen entfernt
+- detaillierter PDF-Bericht mit Prüfpunkten, Kommentaren und Bildnamen
+- Gesamtauflistung aller Schäden
+- erweiterte Übersetzungen der betroffenen Bereiche

@@ -1,0 +1,13 @@
+Fleet Control Final Master Release V18.8 Werkstatt Einsicht
+
+translations.js: OK
+app.js: OK
+V18.8-Werkstatt-Einsicht-Test: OK
+V18_8_WORKSHOP_INSIGHT_OK
+
+Ergänzt:
+- Chef, Stellvertretung und Fuhrpark sehen vollständige Werkstattübersicht.
+- Management-Dashboard zeigt Werkstatt-KPIs.
+- Einsicht in Arbeitsaufträge, Fahrzeuge in Reparatur, Werkstattkosten, fehlende Ersatzteile.
+- Chef/Stellvertretung/Fuhrpark können Arbeitsaufträge freigeben, sperren und kommentieren.
+- Verknüpfung Fahrzeug → Schaden → Arbeitsauftrag → Reparatur → Kosten → PDF → Historie sichtbar.

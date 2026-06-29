@@ -1,0 +1,8 @@
+Fleet Control V17.9.4 Prüfbericht
+
+translations.js: OK
+app.js: OK
+V17.9.4 Funktionstest: OK
+V17_9_4_CHECK_OK
+
+Geändert wurde nur: Fahrer-Schadensmeldung mit KI-Punkteempfehlung und Freigabe-Workflow.

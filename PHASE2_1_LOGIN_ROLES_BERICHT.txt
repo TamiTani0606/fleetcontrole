@@ -1,0 +1,29 @@
+FleetControl Clean Rebuild – Phase 2.1 Bericht
+================================================================
+Phase: Login & Rollen Clean Core
+Basis: FleetControl_PHASE1_CLEANUP_BASE.zip
+
+Umgesetzt:
+- zentrale Benutzerliste fc21Core.users
+- zentrale Rollen-/Rechteprofile
+- eine autoritative login()-Funktion
+- eine autoritative logout()-Funktion
+- zentrale Session über fc21_session
+- Login immer auf Home
+- Login setzt Sprache immer auf Deutsch
+- Kompatibilitätsfunktionen für alte Module: admin(), work(), isPureDriver(), canAwardPoints(), canEditDriverFile()
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- Clean-Core vorhanden: OK
+- Alle Logins: OK
+- Login Defaults Home und Deutsch: OK
+- Management Rechte: OK
+- Werkstatt Rechte: OK
+- Fahrer Rechte: OK
+- Session Restore: OK
+- Temporärer Sprachwechsel: OK
+
+Phase 2.1 bestanden: Login-, Rollen- und Session-Core sind zentral funktionsfähig.
+Nächster Schritt: Phase 2.2 Dashboard & Navigation konsolidieren.

@@ -1,0 +1,27 @@
+FleetControl MASTER V18.11 FINAL
+
+Basis:
+- FleetControl_MASTER_V18_10_FINAL_TranslationFix(1).zip
+
+Zusätzlich integriert:
+- finale Loginstruktur:
+  - Hidir Daglioglu = Chef, Passwort Wassermelonen
+  - Sascha = Stellvertretung, Passwort Fuhrpark
+  - Marcel = Fuhrparkmanagement, Passwort Fuhrpark
+  - Tamara = Management/Vollzugriff, Passwort Fuhrpark
+  - Werkstatt = Werkstatt, Passwort Eisbecher
+  - Fahrer01 = Fahrer, Passwort Fahrer2026
+  - Fahrer02 = Fahrer, Passwort Fahrer2026
+- automatische Fahrermeldungen an Werkstatt
+- Fahrermeldungstypen: Schaden, Ölwechsel, Service, Reifen, Bremsen, Beleuchtung, HU/TÜV, SP, Tachoprüfung, Sonstiges
+- automatische Werkstattauftrag-Erstellung aus jeder Fahrermeldung
+- Werkstatt-Dashboard mit Fahrermeldungen
+- Status Offen / In Bearbeitung / Erledigt
+- Chef/Stellvertretung/Fuhrpark/Tamara können Fahrermeldungen einsehen und bearbeiten
+- Fahrer sehen eigene Meldungen und Status
+- bestehende Funktionen aus V18.10 bleiben enthalten:
+  Fahrerakte, Fahrerkarte, Punkteinfos, Auflieger-Treffpunkte, Dokumentenmappe mit Kennzeichen-Verknüpfung,
+  Fahrzeugakte, Führerschein-PDF-Archiv, Werkstattaufträge, PDF-Archive, Mehrsprachigkeit.
+
+Nicht enthalten:
+- echter E-Mail-Versand / Cloud-Synchronisation, da Backend erforderlich.

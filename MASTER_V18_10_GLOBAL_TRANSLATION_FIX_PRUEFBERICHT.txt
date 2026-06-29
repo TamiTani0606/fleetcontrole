@@ -1,0 +1,4 @@
+app.js: OK
+translations.js: OK
+Globaler-Übersetzungs-Test: OK
+TRANSLATION_GLOBAL_OK

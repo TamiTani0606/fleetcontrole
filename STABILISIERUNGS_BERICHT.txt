@@ -1,0 +1,6 @@
+Fleet Control V17.8.1 Stabilisierung
+
+translations.js: OK
+app.js: OK
+Stabilitätsprüfung: OK
+STABIL_FULL_CHECK_OK

@@ -1,0 +1,14 @@
+Fleet Control – Live-Checkliste
+
+[ ] Hosting / Domain / HTTPS
+[ ] zentrale Datenbank
+[ ] echte Authentifizierung
+[ ] Rollenrechte serverseitig
+[ ] Cloud-Speicher für Fotos/Dokumente/PDFs
+[ ] PDF-Erzeugung serverseitig
+[ ] automatischer E-Mail-Versand
+[ ] Backup-Konzept
+[ ] DSGVO-Dokumentation
+[ ] echte KI-Bilderkennung
+[ ] Monitoring / Logs
+[ ] Praxistest Android/iPhone

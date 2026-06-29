@@ -1,0 +1,33 @@
+Fleet Control V17.9 ZielDesign Final – Prüfbericht
+
+translations.js: OK
+app.js: OK
+V17.9 Volltest: OK
+V17_9_FULL_CHECK_OK
+
+Umgesetzt:
+- Design näher am Referenzbild: rollenbasierte Startseiten für Fahrer, Werkstatt, Fuhrpark, Chef/Management und Entwickler.
+- Lavender-Mist-Dark-Mode mit Karten, Pastell-Statusfarben und Bottom-Navigation.
+- Einstellungen-Seite mit funktionierendem Abmeldebutton.
+- Sprachwechsel in Einstellungen mit ergänzten Übersetzungen für die neuen Rollen-/Dashboard-Texte.
+- Bestehende Funktionen aus der Pilotversion bleiben erhalten.
+
+Geprüft:
+- alle Logins/Rollen
+- leere/nichtladende Seiten im automatischen Test
+- Abfahrtskontrolle
+- Schadensmeldung
+- Punkte und Bonus Schadensfreiheit
+- Führerschein, Wartung, Kosten, Dokumente
+- KI-Schadenprüfung Beta
+- KI-Trainingsdaten
+- Logout
+- Sprachwechsel-Rendering
+
+Nicht lokal vollständig prüfbar:
+- echte Smartphone-Kamera
+- echter Mail/PDF-Versand
+- Cloud-Synchronisation
+- Mehrbenutzerbetrieb
+- echte KI-Bilderkennung
+- Push-Benachrichtigungen

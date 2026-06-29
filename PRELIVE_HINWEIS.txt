@@ -1,0 +1,3 @@
+Pre-Live-Version:
+Diese App ist für Pilotbetrieb und IT-Übergabe vorbereitet.
+Für Produktivbetrieb müssen Backend, Datenbank, Auth, Storage, PDF/Mail und Hosting angebunden werden.

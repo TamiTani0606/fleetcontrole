@@ -1,0 +1,34 @@
+FleetControl MASTER FINAL V18.9
+
+Zusammengeführt aus:
+- V18.9 Konsolidiert ohne echten E-Mail-Versand
+- V18.9 LoginRestore
+- V18.9 FahrzeugManuellFix
+- V18.9 NoTextSelection
+
+Enthalten:
+- Rollenrechte und reine Fahrerzugänge
+- Login-Seite im sauberen V18.7-Stil
+- roter Loginfehler unter Anmeldebutton
+- angemeldet bleiben nach Aktualisierung
+- aktuelle Seite bleibt erhalten
+- Mehrsprachigkeit für neue Bereiche
+- Management-Dashboard mit Werkstatt-Einsicht
+- Werkstatt-Suite
+- Werkstatt-Einsicht für Chef, Stellvertretung und Fuhrpark
+- Arbeitsaufträge, Ersatzteillager, Kalender, Fahrzeughistorie
+- Managementfreigabe, Sperren/Entsperren, Kommentare
+- Fahrzeug-/Pilotfahrzeugerfassung
+- manuelle Fahrzeug-/Kennzeicheneingabe
+- HU/TÜV, SP, Tachoprüfung
+- Schadensmeldung mit KI-Punkteempfehlung
+- Punktevergabe nur durch berechtigte Rollen
+- detaillierte Abfahrtskontroll-PDFs
+- PDF-Archiv mit Abfahrtskontrollen und Werkstatt
+- Fahrzeugakten-PDFs im Werkstatt-Archiv
+- Arbeitsauftrag-PDFs im Werkstatt-Archiv
+- App-Texte nicht markierbar
+- Eingabefelder bleiben bedienbar
+
+Nicht enthalten:
+- echter E-Mail-Versand. Die Mail-Queue ist vorbereitet, benötigt aber Backend.

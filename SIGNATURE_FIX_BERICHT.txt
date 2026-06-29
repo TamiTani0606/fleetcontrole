@@ -1,0 +1,21 @@
+FleetControl MASTER V20 – Werkstatt-Unterschrift sauber integriert
+========================================================================
+Der letzte Teilpunkt aus dem Master-Vollaudit wurde im App-Code integriert.
+
+Umgesetzt:
+- workshopSignature(orderId, signatureText)
+- Speicherung direkt am Werkstattauftrag
+- Felder workshopSignature, workshopSignedBy, workshopSignedAt
+- Archivierung als workshopSignature
+- UI-Bereich in der Werkstatt-Auftragsseite
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- workshopSignature vorhanden: OK
+- Unterschrift speichert und archiviert: OK
+- UI sichtbar: OK
+- Regression activeVehicle: OK
+
+Gesamt: 6 OK / 0 Fehler
+Status: bestanden

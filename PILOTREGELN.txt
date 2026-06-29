@@ -1,0 +1,10 @@
+Pilotprojekt:
+
+Dauer: 4 Wochen
+
+Regeln:
+1. Jede Fahrt startet mit Abfahrtskontrolle.
+2. Jeder Schaden wird sofort gemeldet.
+3. Feedback über WhatsApp + wöchentliches Treffen.
+
+Getestet werden alle bisherigen Funktionen.

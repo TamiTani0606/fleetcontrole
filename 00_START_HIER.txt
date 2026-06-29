@@ -1,0 +1,19 @@
+Fleet Control V17.7 – Pre-Live / IT-Ready
+Erstellt: 18.06.2026 19:26
+
+Dieses Paket ist für den IT-Dienstleister vorbereitet.
+
+Enthalten:
+- /app: aktuelle Pilot-App
+- /it_handoff: technische Übergabe
+- /pilot: Pilotprojekt-Unterlagen
+
+Noch live anzubinden:
+- zentrale Datenbank
+- sichere Authentifizierung
+- Cloud-Speicher
+- PDF-/E-Mail-Versand
+- Hosting/Domain/HTTPS
+- Backups
+- DSGVO
+- echte KI-Bilderkennung

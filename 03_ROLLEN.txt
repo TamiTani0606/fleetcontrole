@@ -1,0 +1,31 @@
+Rollen:
+
+Fahrer:
+- eigene Fahrzeuge/Kombinationen
+- Abfahrtskontrolle
+- Schäden melden
+- eigene Punkte sehen
+
+Werkstatt:
+- Schäden bearbeiten
+- Wartungen bearbeiten
+
+Fuhrpark:
+- Fahrzeuge, Fahrer, Wartungen, Kosten, Dokumente
+
+Chef/Admin:
+- alle Bereiche
+- Punkte/Boni
+- Auswertungen
+
+Entwickler:
+- System, Export, technische Prüfung
+
+Testlogins:
+Hoppe.M / Besen
+Thollembeek.S / Erdbeere
+Klos.T / Einhorn
+Chef / Wassermelonen
+fuhrpark / demo
+Werkstatt / Eisbecher
+Entwickler / Laubblätter

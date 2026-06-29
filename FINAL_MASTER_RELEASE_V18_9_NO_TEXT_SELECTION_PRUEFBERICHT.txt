@@ -1,0 +1,8 @@
+Fleet Control V18.9 No Text Selection Fix
+
+translations.js: OK
+app.js: OK
+No-Text-Selection-Test: OK
+NO_SELECTION_OK
+
+Behoben: App-Texte, Kacheln, Überschriften, Navigation und Karten sind nicht mehr markierbar. Eingabefelder bleiben bedienbar.

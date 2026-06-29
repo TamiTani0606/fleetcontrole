@@ -1,0 +1,6 @@
+Fleet Control V17.8 Lavender Mist Design
+
+translations.js: OK
+app.js: OK
+Design Smoke Test: OK
+OK

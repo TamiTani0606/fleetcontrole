@@ -1,0 +1,18 @@
+FleetControl MASTER V19 RELEASE STABLE
+
+Geprüfte Module:
+- Logins aller Rollen
+- zentrale Rollenrechte
+- Fahrer-Meldung erzeugt Werkstattauftrag
+- Werkstattstatus Offen / In Bearbeitung / Erledigt
+- Arabisch statt Niederländisch
+- Fahrzeugakte Speicherfunktion
+- Fahrerakte Speicherfunktion
+- Dokumentenfilter nach Kennzeichen vorbereitet
+- kompakte mobile Bottom-Bar
+- Syntaxprüfung app.js und translations.js
+
+Nicht enthalten ohne Backend:
+- echter E-Mail-Versand
+- echte Cloud-Synchronisation
+- echte KI-Bildanalyse

@@ -1,0 +1,10 @@
+Noch live anzubinden:
+
+1. LocalStorage durch zentrale Datenbank ersetzen.
+2. Demo-Logins durch sichere Authentifizierung ersetzen.
+3. Fotos/Dokumente/PDFs in Cloud Storage speichern.
+4. PDF serverseitig erzeugen.
+5. PDF automatisch per E-Mail senden.
+6. echte KI-Bilderkennung mit Backend/API anbinden.
+7. Monitoring, Logs und Backups aktivieren.
+8. Datenschutz/DSGVO final prüfen.

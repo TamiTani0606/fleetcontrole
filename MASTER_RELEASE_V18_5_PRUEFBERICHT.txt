@@ -1,0 +1,8 @@
+Fleet Control Master Release V18.5 Fahrer- und Fahrzeugfix
+
+translations.js: OK
+app.js: OK
+Fahrer/Fahrzeug-Test: OK
+V18_5_FAHRER_VEHICLE_OK
+
+Geändert: reine Fahrerzugänge, Hoppe.M/Hopper.M ohne Vollzugriff, zweiter Fahrerzugang, Fahrzeug-/Pilotfahrzeugformular mit HU/TÜV, SP und Tachoprüfung als Datumsfelder.

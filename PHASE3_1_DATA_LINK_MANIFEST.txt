@@ -1,0 +1,31 @@
+FleetControl Clean Rebuild – Phase 3.1 Bericht
+================================================================
+Phase: Datenmodell & Verknüpfungen konsolidieren
+Basis: FleetControl_PHASE2_3_TRANSLATION_CORE.zip
+
+Umgesetzt:
+- zentrales Datenmodell fc31Data
+- zentrale Speicherbereiche für Fahrer, Fahrzeuge, Dokumente, Schäden, Werkstattaufträge, Archive, Führerscheine und Begegnungspunkte
+- Fahrer ↔ Fahrzeug Verknüpfung
+- Fahrer bestätigt zugewiesenes Fahrzeug
+- Dokumente über Kennzeichen / Fahrzeug sichtbar
+- Fahrermeldung/Schaden erzeugt automatisch Werkstattauftrag
+- Werkstattstatus aktualisiert Auftrag und Archiv
+- Fahrzeugakte und Fahrerakte erzeugen Archivverknüpfungen
+- Legacy-Funktionen saveDriverNotice, saveDamage, saveVehicleFile, saveDriverFile bleiben kompatibel
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- fc31Data vorhanden: OK
+- Datenarrays initialisiert: OK
+- Fahrzeugzuordnung: OK
+- Fahrer bestätigt Fahrzeug: OK
+- Dokumente über Kennzeichen: OK
+- Schaden erzeugt Schaden+Werkstatt+Archiv: OK
+- Werkstattstatus archiviert: OK
+- Fahrzeugakte Archiv: OK
+- Fahrerakte Archiv und Zuordnung: OK
+
+Phase 3.1 bestanden: Datenmodell und zentrale Verknüpfungen sind funktionsfähig.
+Nächster Schritt: Phase 3.2 Fachmodule konsolidieren.

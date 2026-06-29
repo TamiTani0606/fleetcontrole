@@ -1,0 +1,4 @@
+app.js: OK
+translations.js: OK
+Auflieger-Treffpunkte-Test: OK
+TRAILER_MEETINGS_OK

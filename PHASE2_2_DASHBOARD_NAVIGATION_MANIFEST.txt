@@ -1,0 +1,29 @@
+FleetControl Clean Rebuild – Phase 2.2 Bericht
+================================================================
+Phase: Dashboard & Navigation konsolidieren
+Basis: FleetControl_PHASE2_1_LOGIN_ROLES_CORE.zip
+
+Umgesetzt:
+- eine autoritative render()-Funktion
+- eine autoritative go()-Funktion
+- zentrales Routenregister fc22Routes
+- zentrales Home-Dashboard für Management, Werkstatt und Fahrer
+- zentrale kompakte Bottom-Navigation
+- zentrales Mehr-Menü
+- zentrale Settings-Seite
+- Legacy-Seiten werden über sichere Routenwrapper eingebunden
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- Core vorhanden: OK
+- Management Home: OK
+- Fahrer Home: OK
+- Werkstatt Home: OK
+- go more settings: OK
+- ohne Login: OK
+- Routen Kern: OK
+- RTL kompatibel: OK
+
+Phase 2.2 bestanden: Dashboard, Navigation und Render-Core sind zentral funktionsfähig.
+Nächster Schritt: Phase 2.3 Übersetzungen zentralisieren.

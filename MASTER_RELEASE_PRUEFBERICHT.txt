@@ -1,0 +1,23 @@
+Fleet Control Master Release V18.3
+
+translations.js: OK
+app.js: OK
+Master-Release-Test: OK
+MASTER_RELEASE_OK
+
+Enthalten und geprüft:
+- alle Logins
+- exaktes Dashboard für Chef/Fuhrpark/Stellvertretung
+- Fahrer ohne Punktevergabe
+- Punktevergabe durch Chef/Fuhrpark/Stellvertretung
+- Fahrer-Schadensmeldung mit KI-Punkteempfehlung
+- KI-Freigabe mit Punkteübernahme
+- Abfahrtskontrolle für Fahrer/Chef/Fuhrpark/Stellvertretung
+- digitale Unterschrift
+- Mail-Queue
+- PDF-Archiv für Stellvertretung
+- Kostenanalyse
+- Sprachspeicherung nach Logout
+
+Hinweis:
+Echter Mailversand, echte KI-Bilderkennung, Mehrbenutzer-Sync und Datenbank benötigen weiterhin Backend/Live-Anbindung.

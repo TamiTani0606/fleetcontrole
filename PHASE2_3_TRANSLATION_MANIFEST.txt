@@ -1,0 +1,25 @@
+FleetControl Clean Rebuild – Phase 2.3 Bericht
+================================================================
+Phase: Übersetzungen zentralisieren
+Basis: FleetControl_PHASE2_2_DASHBOARD_NAVIGATION_CORE.zip
+
+Umgesetzt:
+- zentrales Übersetzungsmodul fc23I18N
+- 8 Sprachen: Deutsch, Englisch, Türkisch, Polnisch, Rumänisch, Russisch, Ukrainisch, Arabisch
+- Niederländisch entfernt
+- Arabisch mit RTL
+- zentrale t()/mt()/tt()-Funktion
+- setLang() zentralisiert
+- Login setzt weiterhin Deutsch
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- Core: OK
+- NL weg AR da: OK
+- Keys: OK
+- RTL: OK
+- Login Deutsch: OK
+
+Phase 2.3 bestanden: Übersetzungs-Core ist zentral funktionsfähig.
+Nächster Schritt: Phase 3.1 Datenmodell & Verknüpfungen konsolidieren.

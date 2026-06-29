@@ -1,0 +1,4 @@
+app.js: OK
+translations.js: OK
+Fahrerakte-Punkte-Info-Test: OK
+DRIVER_POINT_INFO_OK

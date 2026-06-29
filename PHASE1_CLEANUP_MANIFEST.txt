@@ -1,0 +1,9 @@
+FleetControl Clean Rebuild – Phase 1
+
+Phase 1 ist eine sichere Bereinigung:
+- ZIP entpackt und Kernstruktur geprüft
+- app.js / translations.js / styles.css lokalisiert
+- Patch-Marker und Mehrfachdefinitionen dokumentiert
+- Zeilenenden normalisiert
+- keine tiefgreifende Geschäftslogik verändert
+- Arbeitsbasis für Phase 2 erstellt

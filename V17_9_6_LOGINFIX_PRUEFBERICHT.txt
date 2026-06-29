@@ -1,0 +1,8 @@
+Fleet Control V17.9.6 LoginFix
+
+translations.js: OK
+app.js: OK
+LoginFix-Test: OK
+V17_9_6_LOGIN_OK
+
+Geändert wurden nur die genannten Logins.

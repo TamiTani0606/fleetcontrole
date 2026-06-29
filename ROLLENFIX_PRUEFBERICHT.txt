@@ -1,0 +1,8 @@
+Fleet Control V17.9.1 RollenFix
+
+translations.js: OK
+app.js: OK
+RollenFix-Test: OK
+ROLE_FIX_OK
+
+Design wurde nicht verändert; nur Rollenlogik, Navigation und Sichtbarkeit der Menüpunkte wurden korrigiert.

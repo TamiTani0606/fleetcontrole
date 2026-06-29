@@ -1,0 +1,23 @@
+Empfohlenes Datenmodell:
+
+users
+vehicles
+vehicle_combinations
+inspections
+inspection_items
+damages
+damage_photos
+points
+licenses
+maintenance
+costs
+documents
+notifications
+ai_training
+audit_logs
+
+Empfohlenes Backend:
+Supabase oder Firebase.
+
+Wichtig:
+Alle Rollenrechte müssen serverseitig geprüft werden.

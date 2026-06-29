@@ -1,0 +1,8 @@
+Fleet Control Master Release V18.4 I18N
+
+translations.js: OK
+app.js: OK
+I18N-Test: OK
+V18_4_I18N_OK
+
+Mehrsprachigkeit für neu hinzugefügte Master-Funktionen ergänzt: Dashboard, KI-Schäden, Kostenanalyse, PDF-Archiv, Statusmeldungen. Sprache bleibt nach Logout gespeichert.

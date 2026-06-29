@@ -1,0 +1,37 @@
+Fleet Control V17.8.2 Final Pilot – Prüfbericht
+
+translations.js: OK
+app.js: OK
+Finaler Volltest: OK
+FINAL_PILOT_CHECK_OK
+
+Enthalten:
+- Lavender-Mist-Design
+- neue Loginseite
+- alle Pilot-Logins
+- Rollen: Fahrer, Werkstatt, Fuhrpark, Chef/Admin, Entwickler
+- Abfahrtskontrolle stabilisiert
+- Schadensmeldung
+- Punkte/Boni
+- Bonus Schadensfreiheit
+- Kostenübersicht
+- Wartung
+- Führerschein-Kontrolle
+- Dokumentenmappe
+- Benachrichtigungen
+- KI-Schadenprüfung Beta
+- KI-Trainingsdaten
+- Entwickler-Ecke
+- Mehrsprachigkeit
+
+Ehrlicher Hinweis:
+Automatisch geprüft sind die testbaren Browser-Funktionen.
+Nicht in dieser lokalen Testumgebung prüfbar sind:
+- echte Handy-Kamera auf iPhone/Android
+- echter E-Mail-/PDF-Versand
+- Cloud-Synchronisation
+- Mehrbenutzerbetrieb
+- echte KI-Bilderkennung
+- Push-Benachrichtigungen
+
+Diese Punkte müssen für den Livebetrieb durch IT/Backend ergänzt werden.

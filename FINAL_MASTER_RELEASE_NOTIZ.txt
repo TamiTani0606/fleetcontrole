@@ -1,0 +1,9 @@
+FleetControl_FINAL_MASTER_RELEASE_V18_6
+
+Finale konsolidierte Master-Version mit:
+- V18.4 Mehrsprachigkeit
+- V18.5 Fahrer-/Fahrzeugfix
+- V18.6 automatische Europe/Berlin Uhr mit Aktualisierung ohne Neuladen
+
+Hinweis:
+Echter E-Mail-Versand, Datenbank, Mehrbenutzer-Sync und echte KI-Bilderkennung benötigen Backend/Live-Anbindung.

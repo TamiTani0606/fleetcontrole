@@ -1,0 +1,58 @@
+Kategorie;Anforderung;Status;Nicht_nachgewiesene_Marker
+Login;Hidir Daglioglu Chef;VORHANDEN;
+Login;Tamara Management;VORHANDEN;
+Login;Sascha Stellvertretung;VORHANDEN;
+Login;Marcel Fuhrparkmanagement;VORHANDEN;
+Login;Werkstatt;VORHANDEN;
+Login;Fahrer01/Fahrer02;VORHANDEN;
+Login-Verhalten;Home nach Login;VORHANDEN;
+Login-Verhalten;Deutsch beim Login;VORHANDEN;
+Dashboard;Tageszeitbegrüßung;VORHANDEN;
+Dashboard;Uhr/Datum;VORHANDEN;
+Navigation;Kompakte Bottom-Leiste;VORHANDEN;
+Navigation;Fahrerdesign/Navigation;VORHANDEN;
+Navigation;Textauswahl/Cursor-Sperre;VORHANDEN;
+Sprachen;Arabisch statt Niederländisch;VORHANDEN;
+Sprachen;Arabisch RTL;VORHANDEN;
+Sprachen;8 Sprachen;VORHANDEN;
+Sprachen;Zentrale Übersetzung;VORHANDEN;
+Rollen;Zentrale Rechte;VORHANDEN;
+Rollen;Managementrechte;VORHANDEN;
+Fahrerakte;Management sieht Fahrerprofile;VORHANDEN;
+Fahrerakte;Stammdaten;VORHANDEN;
+Fahrerakte;Fahrerkarte;VORHANDEN;
+Fahrzeugakte;Manuell anlegbar;VORHANDEN;
+Fahrzeugakte;HU/SP/Tacho;VORHANDEN;
+Fahrzeugakte;VIN/KM/Notizen;VORHANDEN;
+Fahrzeugzuordnung;Feste Fahrzeugvergabe;VORHANDEN;
+Fahrzeugzuordnung;In Fahrerakte hinterlegt;VORHANDEN;
+Fahrzeugzuordnung;Fahrer bestätigt Zug;VORHANDEN;
+Dokumente;Dokumentenmappe;VORHANDEN;
+Dokumente;Management Upload;VORHANDEN;
+Dokumente;Kennzeichen-Verknüpfung;VORHANDEN;
+Dokumente;Fahrer sieht eigene Dokumente;VORHANDEN;
+Führerschein;Upload/Scan;VORHANDEN;
+Führerschein;Archiv Management;VORHANDEN;
+Abfahrtskontrolle;Vorhanden;VORHANDEN;
+Abfahrtskontrolle;Kommentar/Foto/Unterschrift;VORHANDEN;
+Abfahrtskontrolle;Archiv;VORHANDEN;
+Schäden;Schaden melden;VORHANDEN;
+Schäden;Öl/Service/HU/SP/Tacho;VORHANDEN;
+Schäden;Reifen/Bremsen/Beleuchtung;VORHANDEN;
+Werkstatt;Meldung erzeugt Auftrag;VORHANDEN;
+Werkstatt;Dashboard/Aufträge;VORHANDEN;
+Werkstatt;Status;VORHANDEN;
+Werkstatt;Archiv;VORHANDEN;
+Werkstatt;Fahrzeughistorie;VORHANDEN;
+Werkstatt;Digitale Unterschrift;VORHANDEN;
+Archive;Zentrales Archiv;VORHANDEN;
+Archive;PDF/Datei-Grundstruktur;VORHANDEN;
+Archive;Fahrzeug/Werkstatt/Führerschein/Abfahrt;VORHANDEN;
+Begegnungspunkte;Fahrer erfasst;VORHANDEN;
+Begegnungspunkte;Management sieht;VORHANDEN;
+Punkte;System vorhanden;VORHANDEN;
+Punkte;Fahrer sieht Punkte;VORHANDEN;
+KI;KI-Schaden UI/Grundstruktur;VORHANDEN;
+Backend;Echter E-Mail-Versand;BACKEND ERFORDERLICH;SMTP, sendEmail
+Backend;Cloud/Server-Datenbank;BACKEND ERFORDERLICH;cloud, sync
+Backend;Echte KI-Bildanalyse;BACKEND ERFORDERLICH;image analysis, AI model

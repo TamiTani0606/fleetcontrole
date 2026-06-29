@@ -1,0 +1,18 @@
+Fleet Control Final Master Release V18.8 Werkstatt Suite
+
+translations.js: OK
+app.js: OK
+V18.8-Werkstatt-Test: OK
+V18_8_WORKSHOP_OK
+
+Eingebaut ohne QR-Code:
+- digitale Arbeitsaufträge
+- Arbeitszeit, Priorität, Status, Mechaniker, Vorher-/Nachher-Fotos
+- Arbeitsauftrag aus Schadenmeldung
+- KI-Reparaturschätzung mit Kosten, Dauer und Ersatzteilvorschlag
+- Ersatzteillager mit Mindestbestand und Nachbestellwarnung
+- Werkstattkalender
+- Fahrzeughistorie und Fahrzeugakte-PDF
+- Werkstattkosten und Auslastungsdashboard
+- Benachrichtigungen/Offline-Hinweise
+- Mehrsprachige Texte für Werkstattfunktionen

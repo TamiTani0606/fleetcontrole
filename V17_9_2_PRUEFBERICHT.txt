@@ -1,0 +1,21 @@
+Fleet Control V17.9.2 Prüfbericht
+
+translations.js: OK
+app.js: OK
+V17.9.2 Funktionstest: OK
+V17_9_2_CHECK_OK
+
+Geprüft:
+- Chef-Vollzugriff auf sichtbare Datenbereiche
+- Fahrerschadensmeldung
+- automatische KI-Trainingsdaten-Verknüpfung
+- automatische Werkstatt-Verknüpfung
+- Werkstatt kann Fahrerschaden sehen
+- Abfahrtskontrolle abschließbar
+- PDF/Druckansicht abgesichert
+- Mail-/PDF-Versandvorbereitung an hinterlegte Adresse
+
+Wichtiger Hinweis:
+Echter E-Mail-Versand aus dem Browser ohne Backend ist technisch nicht zuverlässig möglich.
+Die App bereitet den Versand vor und speichert ihn in einer Mail-Queue.
+Für echten automatischen Versand muss der ITler Backend/Mailservice anbinden.

@@ -1,0 +1,17 @@
+FleetControl MASTER V18.10 FINAL
+
+Zusammengeführt:
+- Fahrerakte für Chef, Stellvertretung, Fuhrpark
+- Fahrer sehen nur eigene Daten
+- Fahrzeugakte manuell anlegbar inkl. HU/TÜV, SP, Tachoprüfung und weitere Fahrzeugdaten
+- Dokumentenmappe mit Kennzeichen-Verknüpfung
+- Führerschein-Scan mit separatem PDF-Archiv
+- Werkstattaufträge starten, bearbeiten, fertigstellen, freigeben, sperren
+- Fahrer-Dashboard mit Uhr
+- Schadensmeldung in allen hinterlegten Sprachen
+- PDF-Archive: Abfahrtskontrollen, Werkstatt, Führerscheine
+- Session bleibt nach Aktualisierung
+- Kein Text markieren außerhalb Eingabefeldern
+
+Nicht enthalten:
+- echter E-Mail-Versand; dafür ist ein Backend erforderlich.

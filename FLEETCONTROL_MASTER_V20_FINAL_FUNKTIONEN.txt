@@ -1,0 +1,34 @@
+FleetControl MASTER V20 FINAL – Funktionsübersicht
+
+1. Login & Rollen
+Alle Rollen wurden zentralisiert und getestet.
+
+2. Dashboard & Navigation
+Ein zentrales Dashboard mit tageszeitabhängiger Begrüßung und kompakter Bottom-Navigation.
+
+3. Sprache
+Deutsch als Login-Standard, temporäre Sprachwahl in Einstellungen, Arabisch statt Niederländisch.
+
+4. Fahrer/Fahrzeug
+Feste Fahrzeugzuweisung durch Management und Bestätigung durch Fahrer.
+
+5. Fahrerakten
+Bearbeitbar durch Hidir, Tamara, Sascha und Marcel.
+
+6. Fahrzeugakten
+Manuell anlegbar inklusive HU/TÜV, SP, Tachoprüfung, VIN, Kilometerstand und Notizen.
+
+7. Dokumente
+Dokumente werden über Kennzeichen dem passenden Fahrer angezeigt.
+
+8. Werkstatt
+Fahrermeldungen und Schäden erzeugen automatisch Werkstattaufträge.
+
+9. Archive
+Abfahrtskontrollen, Werkstatt, Fahrzeugakten, Führerschein und Dokumente werden zentral archiviert.
+
+10. Begegnungspunkte
+Fahrer können Treffpunkte erfassen; Management kann sie einsehen.
+
+11. Punkte
+Management kann Punkte vergeben; Fahrer sieht seine Punkte.

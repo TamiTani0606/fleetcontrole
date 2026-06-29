@@ -1,0 +1,38 @@
+FleetControl Clean Rebuild – Phase 3.2 Bericht
+================================================================
+Phase: Fachmodule konsolidieren
+Basis: FleetControl_PHASE3_2_MODULES_CORE_FIXED.zip
+
+Nachbesserung:
+- Punkte-System final korrigiert
+- Punkte werden in S.pointsLedger gespeichert
+- Fahrer-Gesamtpunkte werden vor und nach Render aus dem Ledger wiederhergestellt
+
+Umgesetzt:
+- Fahrzeugakte-Modul auf fc31Data
+- Fahrerakte-Modul auf fc31Data
+- Fahrermeldungen/Schäden auf fc31Data
+- Werkstattaufträge auf fc31Data
+- Dokumentenmappe mit Kennzeichenverknüpfung
+- Führerscheinarchiv
+- Abfahrtskontrollarchiv
+- zentrales Archivmodul
+- Auflieger-/Begegnungspunkte
+- Punkte-System
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- fc32Modules vorhanden: OK
+- Punkte stabil: OK
+- Fahrzeugmodul speichern: OK
+- Fahrerakte Modul: OK
+- Dokumentenmodul: OK
+- Führerscheinmodul: OK
+- Abfahrtskontrolle: OK
+- Schaden/Werkstattmodul: OK
+- Begegnungspunkte: OK
+- Pages rendern: OK
+
+Phase 3.2 bestanden: Fachmodule sind auf das zentrale Datenmodell konsolidiert.
+Nächster Schritt: Phase 4 Final Build & vollständiger Integrationstest.

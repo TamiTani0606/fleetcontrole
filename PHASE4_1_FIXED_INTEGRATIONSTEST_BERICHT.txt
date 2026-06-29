@@ -1,0 +1,34 @@
+FleetControl Clean Rebuild – Phase 4.1 Fix Bericht
+========================================================================
+Fix: Fahrer bestätigt zugewiesenes Fahrzeug
+Basis: FleetControl_PHASE3_2_MODULES_CORE_FIXED_FINAL.zip
+
+Behoben:
+- confirmAssignedVehicle() setzt S.activeVehicle zuverlässig
+- aktives Fahrzeug wird in Session-/Legacy-Storage gespeichert
+- Fahrerakte erhält activeVehicle
+- Fahrzeug erhält driverConfirmed / driverConfirmedAt / driverConfirmedBy
+- Fahrzeugbestätigung wird archiviert
+
+Testergebnisse:
+- Syntax app.js: OK
+- Syntax translations.js: OK
+- Alle Rollen Login: OK
+- Login Home Deutsch Tagesstruktur: OK
+- Sprachen und Arabisch RTL: OK
+- Management legt Fahrzeugakte an: OK
+- Fahrerakte und feste Fahrzeugzuordnung: OK
+- Fahrer bestätigt zugewiesenes Fahrzeug: OK
+- Dokumentenmappe Kennzeichen-Verknüpfung: OK
+- Führerscheinarchiv Fahrer -> Management: OK
+- Abfahrtskontrolle wird archiviert: OK
+- Schaden erzeugt Werkstattauftrag und Abschluss: OK
+- Auflieger-Treffpunkte Fahrer -> Management: OK
+- Punkte-System Management -> Fahrer: OK
+- Managementrollen Zugriff: OK
+- Render und Navigation stabil: OK
+
+Gesamt: 16 OK / 0 Fehler
+
+Phase 4.1 bestanden: Der vollständige Integrationstest läuft jetzt fehlerfrei durch.
+Nächster Schritt: Phase 4.2 Bereinigung alter Patchreste und Finalisierung.
